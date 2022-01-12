@@ -3,27 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		296CABA5278B198B004DA01B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296CABA4278B198B004DA01B /* AppDelegate.swift */; };
 		296CABA7278B198B004DA01B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296CABA6278B198B004DA01B /* SceneDelegate.swift */; };
-		296CABA9278B198B004DA01B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296CABA8278B198B004DA01B /* ViewController.swift */; };
+		296CABA9278B198B004DA01B /* AlbumDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296CABA8278B198B004DA01B /* AlbumDetailsVC.swift */; };
 		296CABAC278B198B004DA01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296CABAA278B198B004DA01B /* Main.storyboard */; };
 		296CABAE278B198F004DA01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296CABAD278B198F004DA01B /* Assets.xcassets */; };
 		296CABB1278B198F004DA01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296CABAF278B198F004DA01B /* LaunchScreen.storyboard */; };
+		296CABBE278B1BD8004DA01B /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296CABBD278B1BD8004DA01B /* ClientService.swift */; };
+		296CABC5278B217C004DA01B /* UserDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296CABC4278B217C004DA01B /* UserDataResponse.swift */; };
+		296CABC8278B2276004DA01B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296CABC7278B2276004DA01B /* ProfileVC.swift */; };
+		296CABCF278B2954004DA01B /* UserAlbumsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296CABCE278B2954004DA01B /* UserAlbumsResponse.swift */; };
+		296CABD2278B2BD8004DA01B /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296CABD1278B2BD8004DA01B /* ProfileViewModel.swift */; };
+		29F9BD7A278C6A3C006EEA00 /* AlbumDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F9BD79278C6A3C006EEA00 /* AlbumDetailsViewModel.swift */; };
+		29F9BD7C278C6AA5006EEA00 /* AlbumDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F9BD7B278C6AA5006EEA00 /* AlbumDetailsResponse.swift */; };
+		29F9BD7F278C7315006EEA00 /* AlbumeDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F9BD7E278C7315006EEA00 /* AlbumeDetailsCollectionViewCell.swift */; };
+		29F9BD82278C743F006EEA00 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 29F9BD81278C743F006EEA00 /* SDWebImage */; };
+		29F9BD86278E5349006EEA00 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F9BD85278E5349006EEA00 /* State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		296CABA1278B198B004DA01B /* SpoknTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpoknTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		296CABA4278B198B004DA01B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		296CABA6278B198B004DA01B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		296CABA8278B198B004DA01B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		296CABA8278B198B004DA01B /* AlbumDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsVC.swift; sourceTree = "<group>"; };
 		296CABAB278B198B004DA01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		296CABAD278B198F004DA01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		296CABB0278B198F004DA01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		296CABB2278B198F004DA01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296CABBD278B1BD8004DA01B /* ClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
+		296CABC4278B217C004DA01B /* UserDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataResponse.swift; sourceTree = "<group>"; };
+		296CABC7278B2276004DA01B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		296CABCE278B2954004DA01B /* UserAlbumsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAlbumsResponse.swift; sourceTree = "<group>"; };
+		296CABD1278B2BD8004DA01B /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		29F9BD79278C6A3C006EEA00 /* AlbumDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewModel.swift; sourceTree = "<group>"; };
+		29F9BD7B278C6AA5006EEA00 /* AlbumDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsResponse.swift; sourceTree = "<group>"; };
+		29F9BD7E278C7315006EEA00 /* AlbumeDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumeDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		29F9BD85278E5349006EEA00 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F9BD82278C743F006EEA00 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,80 @@
 		296CABA3278B198B004DA01B /* SpoknTask */ = {
 			isa = PBXGroup;
 			children = (
+				296CABBC278B1B6D004DA01B /* APIService */,
+				296CABBB278B19B6004DA01B /* Model */,
+				296CABBA278B19AF004DA01B /* View */,
+				296CABB9278B19A0004DA01B /* ViewModel */,
 				296CABA4278B198B004DA01B /* AppDelegate.swift */,
 				296CABA6278B198B004DA01B /* SceneDelegate.swift */,
-				296CABA8278B198B004DA01B /* ViewController.swift */,
 				296CABAA278B198B004DA01B /* Main.storyboard */,
 				296CABAD278B198F004DA01B /* Assets.xcassets */,
 				296CABAF278B198F004DA01B /* LaunchScreen.storyboard */,
 				296CABB2278B198F004DA01B /* Info.plist */,
 			);
 			path = SpoknTask;
+			sourceTree = "<group>";
+		};
+		296CABB9278B19A0004DA01B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				296CABD1278B2BD8004DA01B /* ProfileViewModel.swift */,
+				29F9BD79278C6A3C006EEA00 /* AlbumDetailsViewModel.swift */,
+				29F9BD85278E5349006EEA00 /* State.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		296CABBA278B19AF004DA01B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29F9BD7D278C72DA006EEA00 /* CollectionViewCell */,
+				296CABD9278B321E004DA01B /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		296CABBB278B19B6004DA01B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				296CABC3278B2166004DA01B /* Response */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		296CABBC278B1B6D004DA01B /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				296CABBD278B1BD8004DA01B /* ClientService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		296CABC3278B2166004DA01B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				296CABC4278B217C004DA01B /* UserDataResponse.swift */,
+				296CABCE278B2954004DA01B /* UserAlbumsResponse.swift */,
+				29F9BD7B278C6AA5006EEA00 /* AlbumDetailsResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		296CABD9278B321E004DA01B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				296CABC7278B2276004DA01B /* ProfileVC.swift */,
+				296CABA8278B198B004DA01B /* AlbumDetailsVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		29F9BD7D278C72DA006EEA00 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				29F9BD7E278C7315006EEA00 /* AlbumeDetailsCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +168,9 @@
 			dependencies = (
 			);
 			name = SpoknTask;
+			packageProductDependencies = (
+				29F9BD81278C743F006EEA00 /* SDWebImage */,
+			);
 			productName = SpoknTask;
 			productReference = 296CABA1278B198B004DA01B /* SpoknTask.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +198,9 @@
 				Base,
 			);
 			mainGroup = 296CAB98278B198B004DA01B;
+			packageReferences = (
+				29F9BD80278C743F006EEA00 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 296CABA2278B198B004DA01B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296CABA9278B198B004DA01B /* ViewController.swift in Sources */,
+				296CABCF278B2954004DA01B /* UserAlbumsResponse.swift in Sources */,
+				29F9BD7A278C6A3C006EEA00 /* AlbumDetailsViewModel.swift in Sources */,
+				29F9BD7F278C7315006EEA00 /* AlbumeDetailsCollectionViewCell.swift in Sources */,
+				296CABC8278B2276004DA01B /* ProfileVC.swift in Sources */,
+				296CABA9278B198B004DA01B /* AlbumDetailsVC.swift in Sources */,
 				296CABA5278B198B004DA01B /* AppDelegate.swift in Sources */,
+				296CABC5278B217C004DA01B /* UserDataResponse.swift in Sources */,
+				296CABBE278B1BD8004DA01B /* ClientService.swift in Sources */,
+				296CABD2278B2BD8004DA01B /* ProfileViewModel.swift in Sources */,
 				296CABA7278B198B004DA01B /* SceneDelegate.swift in Sources */,
+				29F9BD7C278C6AA5006EEA00 /* AlbumDetailsResponse.swift in Sources */,
+				29F9BD86278E5349006EEA00 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ASDMGZ58GV;
 				INFOPLIST_FILE = SpoknTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +409,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ASDMGZ58GV;
 				INFOPLIST_FILE = SpoknTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +443,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29F9BD80278C743F006EEA00 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29F9BD81278C743F006EEA00 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29F9BD80278C743F006EEA00 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 296CAB99278B198B004DA01B /* Project object */;
 }
